@@ -12,7 +12,7 @@ function NewBidForm(props) {
     const formData = new FormData(currentTarget);
 
     const newBid = {
-      auction_id: this.props.id,
+      auction_id: props.id,
       // user_id: this.props.currentUser,
       // user_id: {currentUser},
       bid_amount: formData.get("bid_amount"),

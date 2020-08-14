@@ -20,12 +20,12 @@ constructor(props){
 
         this.setState({
           errors: Object.keys(auction.errors).map(errorKey => {
-              return {
-                  field: errorKey,
-                  message: auction.errors[errorKey].join(", ")
-              };
+            return {
+                field: errorKey,
+                message: auction.errors[errorKey].join(", ")
+            };
           })
-      });
+        });
       } else {
       // This is how you do navigation using react-router-dom
       // The 'Route' component gives all components that it renders

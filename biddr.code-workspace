@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"path": "biddr_api"
+	},
+	{
+		"path": "biddr_client"
+	}
+],
+  "settings": {}
+}

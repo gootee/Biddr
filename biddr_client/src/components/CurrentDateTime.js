@@ -47,7 +47,7 @@ class CurrentDateTime extends React.Component {
 	}
 	render() {
 		return (
-			<div className="ui orange inverted center aligned segment CurrentDateTime">
+			<div className="ui tiny center aligned segment CurrentDateTime date-time">
 				{this.state.dateTime.toLocaleString()}
 			</div>
 		);

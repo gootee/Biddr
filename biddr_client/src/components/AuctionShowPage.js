@@ -33,6 +33,7 @@ class AuctionShowPage extends Component {
 //     // pattern matched on the ':id', and will give us a
 //     // param called id within the property of match called param,
 //     // as used below
+    // debugger
     console.log(this.props)
     Auction.one(this.props.match.params.id).then(auction => {
       
